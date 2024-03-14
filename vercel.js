@@ -7,7 +7,7 @@
 	"builds":	[{
 		"src" : "mytest1/wsgi.py",
 		"use" : "@vercel/python",
-		"config" : { "maxLambdasize": "15mb", "runtime": "python3.9" }
+		"config" : { "maxLambdaSize": "15mb", "runtime": "python3.9" }
 
 	}],
 

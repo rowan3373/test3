@@ -1,11 +1,8 @@
 
  {
-	"routes":	[
-            {
-                "src" : "/(.*)",
-                "dest" : "mytest1/wsgi.py"
-            }
-        ]
+	"rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
  }
 
 
